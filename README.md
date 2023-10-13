@@ -7,8 +7,8 @@ Below are the percentages of all deaths caused by heart disease in 2021, listed 
 | Race of Ethnic Group | % of Deaths | 
 |:------------|:--------------|------------|
 | American Indian or Alaska Native | 15.5 | 
-| Asian | 18.6 | 
-| Black (Non-Hispanic) | 22.6 | 
+| Asian                            | 18.6 | 
+| Black (Non-Hispanic)             | 22.6 | 
 | Native Hawaiin or Other Pacific Islander | 18.3 | 
 | White (Non-Hispanic) | 18.0 | 
 | Hispanic | 11.9 | 
