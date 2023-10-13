@@ -22,9 +22,20 @@ The most common heart disease is 'Coronary Artery Disease which killed 375,476 p
 In the United States, someone has a heart attack every 40 seconds and every year about 805,000 people in the United States have a heart attack. Of these, 605,000 are a first heart attack. About 1 in 5 heart attacks are silent which means, the damage is done but the person is not aware of it. 
 
 ## Proposed Data Science Solution
-High blood pressure, high blood cholesterol, and smoking are key risk factors for heart disease. Among these, several other medical conditions and lifestyle choices can also put people at a higher risk for heart disease. In healthcare, identifying and preventing the factors that have the greatest impact on heart disease is very important. Advances in technology have allowed the application of machine learning methods to detect "patterns" in the data, using theses risk factors, that can predict a patient's condition or propensity to develop a heart disease.
+High blood pressure, high blood cholesterol, and smoking are key risk factors for heart disease. Among these, several other medical conditions and lifestyle choices can also put people at a higher risk for heart disease. In healthcare, identifying and preventing the factors that have the greatest impact on heart disease is very important. Advances in technology have allowed the application of machine learning methods to detect "patterns" in the data, using these risk factors, that can predict a patient's condition or propensity to develop a heart disease.
 
-This project seeks to apply machine learning techniques on a 2022 annual CDC survey data, of 400k+ adults related to their health status, to predict an individual's propensity to a heart attack. The original dataset of nearly 300 variables was reduced to 40variables. An the ultimate goal of this project is to apply a number of machine learning methods, especially classifier models (logistic regression, SVM, random forest, etc.) to help make predictions of heart attacks.
+This project seeks to apply machine learning techniques on a 2022 annual CDC survey data, of 400k+ adults related to their health status, to predict an individual's propensity to a heart attack. The original dataset of nearly 300 variables was reduced to 40variables. The ultimate goal of this project is to apply a number of machine learning methods, especially classifier models (logistic regression, SVM, random forest, etc.) to help make predictions of heart attacks.
+
+## Impact of the solution
+Significant impacts can be made in the healthcare industry by applying data science techniques in heart disease predictions. 
+Firstly there will be early detection and risk assessment of heart disease. By applying a patient's data, medical history and lifestyle factors, a machine learning algorithm will be able to detect patterns that may not be immediately apparent to doctors or health care professionals allowing for fast medical interventions and allocation of health resources.
+Secondly, this solution could allow for a personalized risk assessment. Machine learning models will be able to take into account a person's unique combination of risk factors, allowing for targeted interventions and prevention strategies, ensuring that high-risk individuals receive the most appropriate care.
+Lastly, this solution could potentially be used in drug discovery.
+
+## Data Dictionary
+
+
+
 
 
 
