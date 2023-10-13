@@ -34,8 +34,52 @@ Secondly, this solution could allow for a personalized risk assessment. Machine 
 Lastly, this solution could potentially be used in drug discovery.
 
 ## Data Description
-The dataset originally comes from the Centers for Disease COontrol and Prevention (CDC) and is a major part of the Behavioral Risk Factor Surveillance System (BRFSS), which conducts annual telephone surveys to collect data on the health status of U.S. residents. As described by the CDC: "Established in 1984 with 15 states, BRFSS now collects data in all 50 states, the District of Columbia, and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world. The most recent dataset includes data from 2023. The original dataset of nearly 300 variables was reduced by the author to 40 most relevant variables. 
+The dataset originally comes from the Centers for Disease COontrol and Prevention (CDC) and is a major part of the Behavioral Risk Factor Surveillance System (BRFSS), which conducts annual telephone surveys to collect data on the health status of U.S. residents. As described by the CDC: "Established in 1984 with 15 states, BRFSS now collects data in all 50 states, the District of Columbia, and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world. The original dataset of nearly 300 variables was reduced by the author to 40 most relevant variables and that is what is used in this project.
 
+Below is the Data Dictionary:
+
+| Attributes/Variables                     | Survey Questions   | 
+|:-------------------                      |:--------------|
+| State                                    |The US State the respondent lives in         | 
+| Sex                                      | Sex of Respondent         | 
+| GeneralHealth                            | General Health of the respondent          | 
+| PhysicalHealthDays                       | Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?          | 
+| MentalHealthDays                         | Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?          | 
+| LastCheckupTime                          | About how long has it been since you last visited a doctor for a routine checkup?          | 
+| PhysicalActivities	                     | During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?          | 
+| SleepHours	                             | On average, how many hours of sleep do you get in a 24-hour period?          |
+| RemovedTeeth	                           | Not including teeth lost for injury or orthodontics, how many of your permanent teeth have been removed because of tooth decay or gum disease?          |
+| HadHeartAttack (Target Variable)	       | (Ever told) you had a heart attack, also called a myocardial infarction?          |
+| HadAngina                                |(Ever told) (you had) angina or coronary heart disease?        | 
+| HadStroke                                |(Ever told) (you had) a stroke.        | 
+| HadAsthma                                |(Ever told) (you had) asthma?          | 
+| HadSkinCancer                            | (Ever told) (you had) skin cancer that is not melanoma?          | 
+| HadCOPD                                  |(Ever told) (you had) C.O.P.D. (chronic obstructive pulmonary disease), emphysema or chronic bronchitis?          | 
+| HadDepressiveDisorder                    | (Ever told) (you had) a depressive disorder (including depression, major depression, dysthymia, or minor depression)?          | 
+| HadKidneyDisease	                       | Not including kidney stones, bladder infection or incontinence, were you ever told you had kidney disease?          | 
+| HadArthritis	                           | (Ever told) (you had) some form of arthritis, rheumatoid arthritis, gout, lupus, or fibromyalgia?  (Arthritis diagnoses include: rheumatism, polymyalgia rheumatica; osteoarthritis (not osteporosis); tendonitis, bursitis, bunion, tennis elbow; carpal tunnel syndrome, tarsal tunnel syndrome; joint infection, etc.)|
+| HadDiabetes	                             | (Ever told) (you had) diabetes?         |
+| DeafOrHardOfHearing	                     | Are you deaf or do you have serious difficulty hearing?          |
+| BlindOrVisionDifficulty                  | Are you blind or do you have serious difficulty seeing, even when wearing glasses?       | 
+| DifficultyConcentrating                  | Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?        | 
+| DifficultyWalking                        | Do you have serious difficulty walking or climbing stairs?       | 
+| DifficultyDressingBathing                | Do you have difficulty dressing or bathing?          | 
+| DifficultyErrands                        | Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor´s office or shopping?          | 
+| SmokerStatus                             | Four-level smoker status:  Everyday smoker, Someday smoker, Former smoker, Non-smoker          | 
+| ECigaretteUsage	                         | Would you say you have never used e-cigarettes or other electronic vaping products in your entire life or now use them every day, use them some days, or used them in the past but do not currently use them at all?| 
+| ChestScan	                               | Have you ever had a CT or CAT scan of your chest area?          |
+| RaceEthnicityCategory	                   | Five-level race/ethnicity category          |
+| AgeCategory                              | Fourteen-level age category          |
+| HeightInMeters                           | Reported height in meters       | 
+| WeightInKilograms                        | Reported weight in kilograms       | 
+| BMI                                      | Body Mass Index (BMI)         | 
+| AlcoholDrinkers                          | Adults who reported having had at least one drink of alcohol in the past 30 days.        | 
+| HIVTesting                               | Adults who have ever been tested for HIV         | 
+| FluVaxLast12                             | During the past 12 months, have you had either flu vaccine that was sprayed in your nose or flu shot injected into your arm?         | 
+| PneumoVaxEver	                           | Have you ever had a pneumonia shot also known as a pneumococcal vaccine?          | 
+| TetanusLast10Tdap	                       | Have you received a tetanus shot in the past 10 years? Was this Tdap, the tetanus shot that also has pertussis or whooping cough vaccine? |
+| HighRiskLastYear                         | You have injected any drug other than those prescribed for you in the past year. You have been treated for a sexually transmitted disease or STD in the past year. You have given or received money or drugs in exchange for sex in the past year. |
+| CovidPos                                 | Has a doctor, nurse, or other health professional ever told you that you tested positive for COVID 19?        |
 
 
 
