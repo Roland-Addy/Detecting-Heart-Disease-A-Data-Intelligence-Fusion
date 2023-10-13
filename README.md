@@ -8,7 +8,7 @@ In the United States, one person dies every 33 seconds from heart disease. It is
 
 Below are the percentages of all deaths caused by heart disease in 2021, listed by ethnicity, race, and sex:
 | Race of Ethnic Group                     | % of Deaths   | 
-|:------------                             |:--------------|
+|:-------------------                      |:--------------|
 | American Indian or Alaska Native         | 15.5          | 
 | Asian                                    | 18.6          | 
 | Black (Non-Hispanic)                     | 22.6          | 
@@ -25,7 +25,7 @@ In the United States, someone has a heart attack every 40 seconds and every year
 ## Proposed Data Science Solution
 High blood pressure, high blood cholesterol, and smoking are key risk factors for heart disease. Among these, several other medical conditions and lifestyle choices can also put people at a higher risk for heart disease. In healthcare, identifying and preventing the factors that have the greatest impact on heart disease is very important. Advances in technology have allowed the application of machine learning methods to detect "patterns" in the data, using these risk factors, that can predict a patient's condition or propensity to develop a heart disease.
 
-This project seeks to apply machine learning techniques on a 2022 annual CDC survey data, of 400k+ adults related to their health status, to predict an individual's propensity to a heart attack. The original dataset of nearly 300 variables was reduced to 40variables. The ultimate goal of this project is to apply a number of machine learning methods, especially classifier models (logistic regression, SVM, random forest, etc.) to help make predictions of heart attacks.
+This project seeks to apply machine learning techniques on a 2022 annual CDC survey data, of 400k+ adults related to their health status, to predict an individual's propensity to a heart attack. The ultimate goal of this project is to apply a number of machine learning methods, especially classifier models (logistic regression, SVM, random forest, etc.) to help make predictions of heart attacks.
 
 ## Impact of the solution
 Significant impacts can be made in the healthcare industry by applying data science techniques in heart disease predictions. 
@@ -33,8 +33,8 @@ Firstly there will be early detection and risk assessment of heart disease. By a
 Secondly, this solution could allow for a personalized risk assessment. Machine learning models will be able to take into account a person's unique combination of risk factors, allowing for targeted interventions and prevention strategies, ensuring that high-risk individuals receive the most appropriate care.
 Lastly, this solution could potentially be used in drug discovery.
 
-## Data Dictionary
-
+## Data Description
+The dataset originally comes from the Centers for Disease COontrol and Prevention (CDC) and is a major part of the Behavioral Risk Factor Surveillance System (BRFSS), which conducts annual telephone surveys to collect data on the health status of U.S. residents. As described by the CDC: "Established in 1984 with 15 states, BRFSS now collects data in all 50 states, the District of Columbia, and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world. The most recent dataset includes data from 2023. The original dataset of nearly 300 variables was reduced by the author to 40 most relevant variables. 
 
 
 
