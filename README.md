@@ -6,13 +6,13 @@ In the United States, one person dies every 33 seconds from heart disease. It is
 Below are the percentages of all deaths caused by heart disease in 2021, listed by ethnicity, race, and sex:
 | Race of Ethnic Group | % of Deaths | 
 |:------------|:--------------|------------|
-| American Indian or Alaska Native | 15.5 | 
-| Asian                            | 18.6 | 
-| Black (Non-Hispanic)             | 22.6 | 
+| American Indian or Alaska Native         | 15.5 | 
+| Asian                                    | 18.6 | 
+| Black (Non-Hispanic)                     | 22.6 | 
 | Native Hawaiin or Other Pacific Islander | 18.3 | 
-| White (Non-Hispanic) | 18.0 | 
-| Hispanic | 11.9 | 
-| All	 | 17.4 | 
+| White (Non-Hispanic)                     | 18.0 | 
+| Hispanic                                 | 11.9 | 
+| All	                                     | 17.4 | 
 
 
 The most common heart disease is 'Coronary Artery Disease which killed 375,476 people in 2021. According to the Centers for Disease Control and Prevention (CDC), about 1 in 20 adults age 20 and older have Coronary Artery Disease, to put that into perspective, that is about 5% of adults age 20 and older. In 2021, about 2 in 10 deaths from Coronary Artery Disease, happen in adults less than 65 years old
