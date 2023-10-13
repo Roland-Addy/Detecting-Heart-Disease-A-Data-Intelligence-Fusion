@@ -17,5 +17,6 @@ Below are the percentages of all deaths caused by heart disease in 2021, listed 
 
 The most common heart disease is 'Coronary Artery Disease which killed 375,476 people in 2021. According to the Centers for Disease Control and Prevention (CDC), about 1 in 20 adults age 20 and older have Coronary Artery Disease, to put that into perspective, that is about 5% of adults age 20 and older. In 2021, about 2 in 10 deaths from Coronary Artery Disease, happen in adults less than 65 years old
 
+In the United States, someone has a heart attack every 40 seconds and every year about 805,000 people in the United States have a heart attack. Of these, 605,000 are a first heart attack. About 1 in 5 heart attacks are silent which means, the damage is done but the person is not aware of it.
 
 
