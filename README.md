@@ -1,4 +1,5 @@
 # Detecting-Heart-Disease-A-Data-Intelligence-Fusion
+This projects highlights the prevalence of heart diseases, particularly in the United States, where it's a leading cause of death, costing billions each year. The proposed data science solution introduces the application of machine learning to predict an individual's propensity for a heart attack. By analyzing health data and lifestyle factors, this approach offers early detection and personalized risk assessments. Furthermore, it has the potential to aid in the allocation of healthcare resources and even contribute to drug discovery.
 
 ## Problem Area
 Heart and circulatory diseases is an umbrella term for all diseases of the heart and circulation. It includes everything from conditions that are inherited or that a person is born with, to those that develop later, such as coronary heart disease, atrial fibrillation, heart failure, stroke and vascular dementia. Globally it’s estimated that 1 in 13 people are living with a heart or circulatory disease.
