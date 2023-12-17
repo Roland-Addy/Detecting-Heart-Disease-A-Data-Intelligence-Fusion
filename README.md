@@ -96,11 +96,11 @@ The dataset can be found [here on Kaggle](https://www.kaggle.com/datasets/kamilp
 * There is a significant class imbalance in the dataset. 
 
 Notably the below are significant in determining an individual’s odds in having a heart attack:
-*The sex
-*Number of days where an individual's physical health was not good
-*The number of days where an individual's mental health was not good
-*The average number of sleep hours in a day
-*An individual's height and weight
+* The sex
+* Number of days where an individual's physical health was not good
+* The number of days where an individual's mental health was not good
+* The average number of sleep hours in a day
+* An individual's height and weight
 
 ### Data Preprocessing
 * The duplicated instances were removed.
@@ -109,5 +109,9 @@ Notably the below are significant in determining an individual’s odds in havin
 * After data preprocessing, there are 111 features to work with.
 
 ### Fitting Baseline Models
-* The dataset was split into train and test sets. The train set was downsampled to resolved the class imbalanced, (with a total size of 12,448 rows and 111 features).
+* The dataset was split into train and test sets. The train set was upsampled to resolved the class imbalance.
+* Due to the class imbalance in the test set and the nature of the target variable, the AUC Score metric was used in the model evaluation.
+* The below base models were used using grid searching over a range of hyperparameters:
+* * Logistic Regression - AUC Score of 0.88
+  * Decision Tree Classifier - 
 
