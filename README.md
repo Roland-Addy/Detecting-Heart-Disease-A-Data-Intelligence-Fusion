@@ -89,3 +89,25 @@ The dataset can be found [here on Kaggle](https://www.kaggle.com/datasets/kamilp
 * Step 1: Exploratory Data Analysis
 * Step 2: Data Preprocessing
 * Step 3: Fitting Baseline Models
+
+### Exploratory Data Analysis
+* The dataset contains 445,132 instances with 40 variables.
+* There were 157 duplicated instances and missing values in 38 out of the 40 columns.
+* There is a significant class imbalance in the dataset. 
+
+Notably the below are significant in determining an individual’s odds in having a heart attack:
+*The sex
+*Number of days where an individual's physical health was not good
+*The number of days where an individual's mental health was not good
+*The average number of sleep hours in a day
+*An individual's height and weight
+
+### Data Preprocessing
+* The duplicated instances were removed.
+* Missing Values in the dataset were resolved.
+* Multicolinearity was detected in the data, which was rectified using the Variance Inflation Factors.
+* After data preprocessing, there are 111 features to work with.
+
+### Fitting Baseline Models
+* The dataset was split into train and test sets. The train set was downsampled to resolved the class imbalanced, (with a total size of 12,448 rows and 111 features).
+
