@@ -113,5 +113,7 @@ Notably the below are significant in determining an individual’s odds in havin
 * Due to the class imbalance in the test set and the nature of the target variable, the AUC Score metric was used in the model evaluation.
 * The below base models were used using grid searching over a range of hyperparameters:
 * * Logistic Regression - AUC Score of 0.88
-  * Decision Tree Classifier - 
+  * Decision Tree Classifier - AUC Test Score of 0.67
+  * Support Vector Machine - AUC Train Score of 0.88, the LinearSVC doesn't return predicted probabilities so the AUC Test Score wasn't calculated.
+  * Random Forest Classifier - AUC Test Score of 0.85
 
