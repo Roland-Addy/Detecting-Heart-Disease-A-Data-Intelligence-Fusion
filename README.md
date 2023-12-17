@@ -85,3 +85,7 @@ Below is the Data Dictionary:
 The dataset can be found [here on Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/data)
 
 
+## Project Organization
+* Step 1: Exploratory Data Analysis
+* Step 2: Data Preprocessing
+* Step 3: Fitting Baseline Models
