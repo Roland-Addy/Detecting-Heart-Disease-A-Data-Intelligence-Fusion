@@ -120,7 +120,7 @@ Notably, the below are significant in determining an individual’s odds of havi
  ### Fitting Ensemble Learning Models and a Neural Network Model
 Based on the Random Forest Classifier, individuals who have had angina, stroke, a chest scan, or arthritis as well as individuals above 70 are more likely to have a heart disease. Notably, the 'State' features ranked very low in feature importance. Hence the 'State' features were dropped in the next stage of the modelling.
 
-An adaptive boosting classifier with the base estimator as a voting classifier of the logistic regression and random forest classifier models was used with an AUC test score of ...
+An adaptive boosting classifier with the base estimator as a voting classifier of the logistic regression and random forest classifier models was used with an AUC test score of 0.880
 
 A neural network with batch normalization was used, with an AUC Test Score of ... 
 
