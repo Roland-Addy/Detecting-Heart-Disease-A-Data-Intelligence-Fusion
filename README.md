@@ -122,6 +122,6 @@ Based on the Random Forest Classifier, individuals who have had angina, stroke, 
 
 An adaptive boosting classifier with the base estimator as a voting classifier of the logistic regression and random forest classifier models was used with an AUC test score of 0.880
 
-A neural network with batch normalization was used, with an AUC Test Score of ... 
+A neural network with batch normalization was used, with an AUC Test Score of 0.882 
 
 
